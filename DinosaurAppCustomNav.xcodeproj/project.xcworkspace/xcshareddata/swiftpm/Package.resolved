@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dinosaurapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nraptis/DinosaurAPI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "97cd91b4fd15c6c0f3e05b09d97dcca8c173a494"
+      }
+    }
+  ],
+  "version" : 2
+}

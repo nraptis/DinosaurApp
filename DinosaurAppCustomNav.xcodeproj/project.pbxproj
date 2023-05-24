@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DA7B3C029E42C7800814CAE /* DinosaurAppCustomNavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3BF29E42C7800814CAE /* DinosaurAppCustomNavApp.swift */; };
+		0DA7B3C429E42C7A00814CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7B3C329E42C7A00814CAE /* Assets.xcassets */; };
+		0DA7B3C729E42C7A00814CAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7B3C629E42C7A00814CAE /* Preview Assets.xcassets */; };
+		0DA7B3D129E42E9900814CAE /* DinosaurListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D029E42E9900814CAE /* DinosaurListView.swift */; };
+		0DA7B3D329E42EA500814CAE /* DinosaurListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D229E42EA500814CAE /* DinosaurListViewModel.swift */; };
+		0DA7B3D829E42EC200814CAE /* PeriodCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D429E42EC200814CAE /* PeriodCellView.swift */; };
+		0DA7B3D929E42EC200814CAE /* DinosaurCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D529E42EC200814CAE /* DinosaurCellView.swift */; };
+		0DA7B3DA29E42EC200814CAE /* TitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D629E42EC200814CAE /* TitleBarView.swift */; };
+		0DA7B3DB29E42EC200814CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3D729E42EC200814CAE /* LoadingView.swift */; };
+		0DA7B3DE29E4302E00814CAE /* DinosaurAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA7B3DD29E4302E00814CAE /* DinosaurAPI */; };
+		0DA7B3E029E430D600814CAE /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3DF29E430D600814CAE /* RootViewModel.swift */; };
+		0DA7B3E229E430E600814CAE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3E129E430E600814CAE /* RootView.swift */; };
+		0DA7B3E429E4634700814CAE /* DinosaurDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3E329E4634700814CAE /* DinosaurDetailsViewModel.swift */; };
+		0DA7B3E629E4635700814CAE /* DinosaurDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3E529E4635700814CAE /* DinosaurDetailsView.swift */; };
+		0DA7B3E829E466C300814CAE /* PeriodDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3E729E466C300814CAE /* PeriodDetailsView.swift */; };
+		0DA7B3EA29E466CF00814CAE /* PeriodDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7B3E929E466CF00814CAE /* PeriodDetailsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DA7B3BC29E42C7800814CAE /* DinosaurAppCustomNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinosaurAppCustomNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA7B3BF29E42C7800814CAE /* DinosaurAppCustomNavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurAppCustomNavApp.swift; sourceTree = "<group>"; };
+		0DA7B3C329E42C7A00814CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DA7B3C629E42C7A00814CAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DA7B3D029E42E9900814CAE /* DinosaurListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurListView.swift; sourceTree = "<group>"; };
+		0DA7B3D229E42EA500814CAE /* DinosaurListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurListViewModel.swift; sourceTree = "<group>"; };
+		0DA7B3D429E42EC200814CAE /* PeriodCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriodCellView.swift; sourceTree = "<group>"; };
+		0DA7B3D529E42EC200814CAE /* DinosaurCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurCellView.swift; sourceTree = "<group>"; };
+		0DA7B3D629E42EC200814CAE /* TitleBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleBarView.swift; sourceTree = "<group>"; };
+		0DA7B3D729E42EC200814CAE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0DA7B3DF29E430D600814CAE /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		0DA7B3E129E430E600814CAE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0DA7B3E329E4634700814CAE /* DinosaurDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurDetailsViewModel.swift; sourceTree = "<group>"; };
+		0DA7B3E529E4635700814CAE /* DinosaurDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurDetailsView.swift; sourceTree = "<group>"; };
+		0DA7B3E729E466C300814CAE /* PeriodDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodDetailsView.swift; sourceTree = "<group>"; };
+		0DA7B3E929E466CF00814CAE /* PeriodDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodDetailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA7B3B929E42C7800814CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA7B3DE29E4302E00814CAE /* DinosaurAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA7B3B329E42C7800814CAE = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3BE29E42C7800814CAE /* DinosaurAppCustomNav */,
+				0DA7B3BD29E42C7800814CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA7B3BD29E42C7800814CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3BC29E42C7800814CAE /* DinosaurAppCustomNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA7B3BE29E42C7800814CAE /* DinosaurAppCustomNav */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3CE29E42E3B00814CAE /* Dinosaur List */,
+				0DA7B3CD29E42E3B00814CAE /* Dinosaur Details */,
+				0DA7B3CF29E42E3B00814CAE /* Period Details */,
+				0DA7B3BF29E42C7800814CAE /* DinosaurAppCustomNavApp.swift */,
+				0DA7B3D529E42EC200814CAE /* DinosaurCellView.swift */,
+				0DA7B3D729E42EC200814CAE /* LoadingView.swift */,
+				0DA7B3D429E42EC200814CAE /* PeriodCellView.swift */,
+				0DA7B3D629E42EC200814CAE /* TitleBarView.swift */,
+				0DA7B3DF29E430D600814CAE /* RootViewModel.swift */,
+				0DA7B3E129E430E600814CAE /* RootView.swift */,
+				0DA7B3C329E42C7A00814CAE /* Assets.xcassets */,
+				0DA7B3C529E42C7A00814CAE /* Preview Content */,
+			);
+			path = DinosaurAppCustomNav;
+			sourceTree = "<group>";
+		};
+		0DA7B3C529E42C7A00814CAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3C629E42C7A00814CAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DA7B3CD29E42E3B00814CAE /* Dinosaur Details */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3E529E4635700814CAE /* DinosaurDetailsView.swift */,
+				0DA7B3E329E4634700814CAE /* DinosaurDetailsViewModel.swift */,
+			);
+			path = "Dinosaur Details";
+			sourceTree = "<group>";
+		};
+		0DA7B3CE29E42E3B00814CAE /* Dinosaur List */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3D029E42E9900814CAE /* DinosaurListView.swift */,
+				0DA7B3D229E42EA500814CAE /* DinosaurListViewModel.swift */,
+			);
+			path = "Dinosaur List";
+			sourceTree = "<group>";
+		};
+		0DA7B3CF29E42E3B00814CAE /* Period Details */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7B3E729E466C300814CAE /* PeriodDetailsView.swift */,
+				0DA7B3E929E466CF00814CAE /* PeriodDetailsViewModel.swift */,
+			);
+			path = "Period Details";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA7B3BB29E42C7800814CAE /* DinosaurAppCustomNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA7B3CA29E42C7A00814CAE /* Build configuration list for PBXNativeTarget "DinosaurAppCustomNav" */;
+			buildPhases = (
+				0DA7B3B829E42C7800814CAE /* Sources */,
+				0DA7B3B929E42C7800814CAE /* Frameworks */,
+				0DA7B3BA29E42C7800814CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinosaurAppCustomNav;
+			packageProductDependencies = (
+				0DA7B3DD29E4302E00814CAE /* DinosaurAPI */,
+			);
+			productName = DinosaurAppCustomNav;
+			productReference = 0DA7B3BC29E42C7800814CAE /* DinosaurAppCustomNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA7B3B429E42C7800814CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0DA7B3BB29E42C7800814CAE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0DA7B3B729E42C7800814CAE /* Build configuration list for PBXProject "DinosaurAppCustomNav" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DA7B3B329E42C7800814CAE;
+			packageReferences = (
+				0DA7B3DC29E4302E00814CAE /* XCRemoteSwiftPackageReference "DinosaurAPI" */,
+			);
+			productRefGroup = 0DA7B3BD29E42C7800814CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA7B3BB29E42C7800814CAE /* DinosaurAppCustomNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA7B3BA29E42C7800814CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA7B3C729E42C7A00814CAE /* Preview Assets.xcassets in Resources */,
+				0DA7B3C429E42C7A00814CAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA7B3B829E42C7800814CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA7B3E629E4635700814CAE /* DinosaurDetailsView.swift in Sources */,
+				0DA7B3D929E42EC200814CAE /* DinosaurCellView.swift in Sources */,
+				0DA7B3C029E42C7800814CAE /* DinosaurAppCustomNavApp.swift in Sources */,
+				0DA7B3D829E42EC200814CAE /* PeriodCellView.swift in Sources */,
+				0DA7B3EA29E466CF00814CAE /* PeriodDetailsViewModel.swift in Sources */,
+				0DA7B3E229E430E600814CAE /* RootView.swift in Sources */,
+				0DA7B3E429E4634700814CAE /* DinosaurDetailsViewModel.swift in Sources */,
+				0DA7B3DA29E42EC200814CAE /* TitleBarView.swift in Sources */,
+				0DA7B3DB29E42EC200814CAE /* LoadingView.swift in Sources */,
+				0DA7B3D129E42E9900814CAE /* DinosaurListView.swift in Sources */,
+				0DA7B3E029E430D600814CAE /* RootViewModel.swift in Sources */,
+				0DA7B3E829E466C300814CAE /* PeriodDetailsView.swift in Sources */,
+				0DA7B3D329E42EA500814CAE /* DinosaurListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DA7B3C829E42C7A00814CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DA7B3C929E42C7A00814CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DA7B3CB29E42C7A00814CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinosaurAppCustomNav/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raptis.nick.dinosaur.app.custom.DinosaurAppCustomNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DA7B3CC29E42C7A00814CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinosaurAppCustomNav/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raptis.nick.dinosaur.app.custom.DinosaurAppCustomNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA7B3B729E42C7800814CAE /* Build configuration list for PBXProject "DinosaurAppCustomNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA7B3C829E42C7A00814CAE /* Debug */,
+				0DA7B3C929E42C7A00814CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA7B3CA29E42C7A00814CAE /* Build configuration list for PBXNativeTarget "DinosaurAppCustomNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA7B3CB29E42C7A00814CAE /* Debug */,
+				0DA7B3CC29E42C7A00814CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DA7B3DC29E4302E00814CAE /* XCRemoteSwiftPackageReference "DinosaurAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nraptis/DinosaurAPI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DA7B3DD29E4302E00814CAE /* DinosaurAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DA7B3DC29E4302E00814CAE /* XCRemoteSwiftPackageReference "DinosaurAPI" */;
+			productName = DinosaurAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0DA7B3B429E42C7800814CAE /* Project object */;
+}
